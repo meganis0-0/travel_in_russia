@@ -116,3 +116,33 @@
 /*---------------------------------------*/
 
 /* photo-grid styles */
+
+.photo-grid {
+    display: grid;
+    max-width: 1184px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    margin: auto;
+}
+
+.photo-grid__item {
+    max-width: 284px;
+    max-height: 213px;
+}
+
+/*---------------------------------------*/
+
+/* places styles */
+
+
+
+/*---------------------------------------*/
+
+/* cover styles */
+
+
+
+/*---------------------------------------*/
+
+/* footer styles */
