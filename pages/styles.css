@@ -1,4 +1,6 @@
 .page {
+    font-family: 'Inter', sans-serif;
+    color: white;
     background-color: #2A2C2F;
 }
 
@@ -22,13 +24,56 @@
 }
 
 .header__logo_link {
-    color: white;
     line-height: 28px;
     font-size: 24px;
 }
 
 .header__leng_link_active {
     text-decoration: underline;
+}
+
+/*---------------------------------------*/
+
+/* LEAD styles */
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead__title {
+    text-align: center;
+    font-size: 96px;
+    line-height: 100px;
+    max-width: 720px;
+    font-weight: bolder; 
+    margin-bottom: 0;
+}
+
+.lead__subtitle {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 640px;
+    margin: 32px auto 64px;
+}
+
+.lead__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.lead__container_image {
+    max-width: 984px;
+    max-height: 615px;
+}
+
+.lead__container_caption {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
 }
 
 /*---------------------------------------*/
