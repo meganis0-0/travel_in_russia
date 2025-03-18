@@ -77,3 +77,42 @@
 }
 
 /*---------------------------------------*/
+
+/* intro styles */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+}
+
+.intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: bolder;
+}
+
+.intro__text {
+    font-size: 16px;
+    line-height: 163%;
+}
+
+.intro__list {
+    padding-left: 0;
+}
+
+.intro__list_item {
+    list-style: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.intro__list_item_bold {
+    font-weight: bolder;
+}
+
+/*---------------------------------------*/
+
+/* photo-grid styles */
